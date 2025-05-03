@@ -1,4 +1,4 @@
-Flask
+flask
 scipy
 werkzeug
 cryptography
@@ -7,3 +7,4 @@ pillow
 scikit-image
 opencv-python
 pycryptodome
+gunicorn
