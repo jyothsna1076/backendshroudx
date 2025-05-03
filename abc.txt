@@ -1,0 +1,2 @@
+so now i also want to include an image in image part of which i have the .py file.
+when i run app.py, it should open the html page which shows us 2 option - text in imag and image in image. Now when i click on text in image it should open 

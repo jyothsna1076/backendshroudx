@@ -1,0 +1,215 @@
+2025-04-18 08:23:18,302 - INFO -  * Detected change in 'C:\\shroudx\\app.py', reloading
+2025-04-18 08:23:18,428 - INFO -  * Restarting with stat
+2025-04-18 08:23:35,769 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-18 08:23:35,769 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 08:23:45,235 - INFO - 127.0.0.1 - - [18/Apr/2025 08:23:45] "GET /sub1 HTTP/1.1" 200 -
+2025-04-18 08:23:45,348 - INFO - 127.0.0.1 - - [18/Apr/2025 08:23:45] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:24:14,751 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:14] "GET /page2 HTTP/1.1" 200 -
+2025-04-18 08:24:14,766 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:14] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:24:14,946 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:14] "GET /page2 HTTP/1.1" 200 -
+2025-04-18 08:24:14,963 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:14] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:24:15,148 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:15] "GET /page2 HTTP/1.1" 200 -
+2025-04-18 08:24:15,174 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:15] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:24:16,643 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:16] "GET /sub1 HTTP/1.1" 200 -
+2025-04-18 08:24:16,661 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:16] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:24:19,624 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:19] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:38,480 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:38] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:39,202 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:39] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:39,413 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:39] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:39,982 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:39] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:40,199 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:40] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:40,453 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:40] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:40,663 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:40] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:40,880 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:40] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:41,098 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:41] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:41,314 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:41] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:24:47,117 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:47] "GET /page2 HTTP/1.1" 200 -
+2025-04-18 08:24:47,146 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:47] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:24:48,890 - INFO - 127.0.0.1 - - [18/Apr/2025 08:24:48] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:25:21,914 - INFO - 127.0.0.1 - - [18/Apr/2025 08:25:21] "GET /page1 HTTP/1.1" 200 -
+2025-04-18 08:25:21,946 - INFO - 127.0.0.1 - - [18/Apr/2025 08:25:21] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:26:08,231 - INFO - 127.0.0.1 - - [18/Apr/2025 08:26:08] "GET /page5 HTTP/1.1" 200 -
+2025-04-18 08:26:08,266 - INFO - 127.0.0.1 - - [18/Apr/2025 08:26:08] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:26:13,047 - INFO - 127.0.0.1 - - [18/Apr/2025 08:26:13] "GET /page2 HTTP/1.1" 200 -
+2025-04-18 08:26:13,068 - INFO - 127.0.0.1 - - [18/Apr/2025 08:26:13] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 08:26:14,210 - INFO - 127.0.0.1 - - [18/Apr/2025 08:26:14] "GET /sub2 HTTP/1.1" 200 -
+2025-04-18 08:54:34,743 - INFO - 127.0.0.1 - - [18/Apr/2025 08:54:34] "GET / HTTP/1.1" 200 -
+2025-04-18 08:54:34,769 - INFO - 127.0.0.1 - - [18/Apr/2025 08:54:34] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 09:02:01,008 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "GET / HTTP/1.1" 200 -
+2025-04-18 09:02:01,046 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 09:02:01,151 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "GET / HTTP/1.1" 200 -
+2025-04-18 09:02:01,178 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 09:02:01,311 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "GET / HTTP/1.1" 200 -
+2025-04-18 09:02:01,345 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 09:02:01,480 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "GET / HTTP/1.1" 200 -
+2025-04-18 09:02:01,497 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 09:02:01,629 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "GET / HTTP/1.1" 200 -
+2025-04-18 09:02:01,651 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 09:02:01,817 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "GET / HTTP/1.1" 200 -
+2025-04-18 09:02:01,834 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:01] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 09:02:02,030 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:02] "GET / HTTP/1.1" 200 -
+2025-04-18 09:02:02,072 - INFO - 127.0.0.1 - - [18/Apr/2025 09:02:02] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:03:51,558 - INFO - 127.0.0.1 - - [18/Apr/2025 15:03:51] "GET /page1 HTTP/1.1" 200 -
+2025-04-18 15:03:51,596 - INFO - 127.0.0.1 - - [18/Apr/2025 15:03:51] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:04:14,441 - INFO - TEXT_ENCODE: Image: butter.jpg, Text: abc.txt, Expiry: 120s
+2025-04-18 15:04:14,448 - INFO - 127.0.0.1 - - [18/Apr/2025 15:04:14] "POST /page1 HTTP/1.1" 200 -
+2025-04-18 15:04:14,487 - INFO - 127.0.0.1 - - [18/Apr/2025 15:04:14] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:04:14,497 - INFO - 127.0.0.1 - - [18/Apr/2025 15:04:14] "GET /static/outputs/encoded_random.png HTTP/1.1" 200 -
+2025-04-18 15:04:21,845 - INFO - 127.0.0.1 - - [18/Apr/2025 15:04:21] "GET /static/outputs/encoded_random.png HTTP/1.1" 200 -
+2025-04-18 15:04:41,006 - INFO - TEXT_DECODE_SUCCESS: Image: encoded_random (36).png, Key: 5537****
+2025-04-18 15:04:41,006 - INFO - 127.0.0.1 - - [18/Apr/2025 15:04:41] "POST /page1 HTTP/1.1" 200 -
+2025-04-18 15:04:41,022 - INFO - 127.0.0.1 - - [18/Apr/2025 15:04:41] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:04:45,392 - INFO - 127.0.0.1 - - [18/Apr/2025 15:04:45] "GET /static/outputs/decoded.txt HTTP/1.1" 200 -
+2025-04-18 15:04:57,578 - INFO - 127.0.0.1 - - [18/Apr/2025 15:04:57] "[33mGET /evaluate HTTP/1.1[0m" 404 -
+2025-04-18 15:05:01,881 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:01] "GET / HTTP/1.1" 200 -
+2025-04-18 15:05:01,912 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:01] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:05:05,427 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:05] "GET /page3 HTTP/1.1" 200 -
+2025-04-18 15:05:05,444 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:05] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:05:07,186 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:07] "GET /evaluate_im HTTP/1.1" 200 -
+2025-04-18 15:05:07,203 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:07] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:05:55,421 - INFO - IMAGE_ENCODE: Cover: big.jpg, Secret: butterfly.jpg, Expiry: 120s
+2025-04-18 15:05:55,422 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:55] "POST /page3 HTTP/1.1" 200 -
+2025-04-18 15:05:55,451 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:55] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:05:55,458 - INFO - 127.0.0.1 - - [18/Apr/2025 15:05:55] "GET /static/outputs/stego_image.png HTTP/1.1" 200 -
+2025-04-18 15:06:03,047 - INFO - 127.0.0.1 - - [18/Apr/2025 15:06:03] "GET /static/outputs/stego_image.png HTTP/1.1" 200 -
+2025-04-18 15:06:22,429 - INFO - IMAGE_DECODE_SUCCESS: Stego: stego_image (15).png, Level: 4, Decode Time: 0.9968s
+2025-04-18 15:06:22,430 - INFO - 127.0.0.1 - - [18/Apr/2025 15:06:22] "POST /page3 HTTP/1.1" 200 -
+2025-04-18 15:06:22,473 - INFO - 127.0.0.1 - - [18/Apr/2025 15:06:22] "GET /static/outputs/decoded_secret.png HTTP/1.1" 200 -
+2025-04-18 15:06:22,474 - INFO - 127.0.0.1 - - [18/Apr/2025 15:06:22] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:06:31,277 - INFO - 127.0.0.1 - - [18/Apr/2025 15:06:31] "GET /static/outputs/decoded_secret.png HTTP/1.1" 200 -
+2025-04-18 15:06:39,382 - INFO - 127.0.0.1 - - [18/Apr/2025 15:06:39] "GET /evaluate_im HTTP/1.1" 200 -
+2025-04-18 15:06:39,428 - INFO - 127.0.0.1 - - [18/Apr/2025 15:06:39] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:07:05,525 - INFO - EVALUATE_AUDIO_IMAGE: Original: butterfly.jpg, Stego: decoded_secret (1).png, PSNR: 35.42986939327546, Hamming: 20961
+2025-04-18 15:07:05,525 - INFO - 127.0.0.1 - - [18/Apr/2025 15:07:05] "POST /evaluate_im HTTP/1.1" 200 -
+2025-04-18 15:07:05,553 - INFO - 127.0.0.1 - - [18/Apr/2025 15:07:05] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:07:12,228 - INFO - 127.0.0.1 - - [18/Apr/2025 15:07:12] "GET /evaluate_im HTTP/1.1" 200 -
+2025-04-18 15:08:10,328 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:10] "GET / HTTP/1.1" 200 -
+2025-04-18 15:08:10,381 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:10] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:08:16,723 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:16] "GET /page4 HTTP/1.1" 200 -
+2025-04-18 15:08:16,765 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:16] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:08:37,141 - INFO - AUDIO_ENCODE: Audio: audio.wav, Image: butter.jpg, Expiry: 1200s
+2025-04-18 15:08:37,141 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:37] "POST /page4 HTTP/1.1" 200 -
+2025-04-18 15:08:37,190 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:37] "GET /static/outputs/audio_stego.png HTTP/1.1" 200 -
+2025-04-18 15:08:37,199 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:37] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:08:39,944 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:39] "GET /static/outputs/audio_stego.png HTTP/1.1" 200 -
+2025-04-18 15:08:56,474 - INFO - AUDIO_DECODE_SUCCESS: Stego: audio_stego (10).png, Decode Time: 0.4785s
+2025-04-18 15:08:56,474 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:56] "POST /page4 HTTP/1.1" 200 -
+2025-04-18 15:08:56,529 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:56] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:08:58,553 - INFO - 127.0.0.1 - - [18/Apr/2025 15:08:58] "GET /static/outputs/decoded_audio.wav HTTP/1.1" 200 -
+2025-04-18 15:09:23,157 - INFO - 127.0.0.1 - - [18/Apr/2025 15:09:23] "GET / HTTP/1.1" 200 -
+2025-04-18 15:09:23,189 - INFO - 127.0.0.1 - - [18/Apr/2025 15:09:23] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:09:30,823 - INFO - 127.0.0.1 - - [18/Apr/2025 15:09:30] "GET /page5 HTTP/1.1" 200 -
+2025-04-18 15:09:30,853 - INFO - 127.0.0.1 - - [18/Apr/2025 15:09:30] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:09:47,468 - INFO - 127.0.0.1 - - [18/Apr/2025 15:09:47] "GET /page2 HTTP/1.1" 200 -
+2025-04-18 15:09:47,515 - INFO - 127.0.0.1 - - [18/Apr/2025 15:09:47] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:10:03,510 - INFO - 127.0.0.1 - - [18/Apr/2025 15:10:03] "GET / HTTP/1.1" 200 -
+2025-04-18 15:10:03,566 - INFO - 127.0.0.1 - - [18/Apr/2025 15:10:03] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:56:06,751 - INFO - 127.0.0.1 - - [18/Apr/2025 15:56:06] "GET /page5 HTTP/1.1" 200 -
+2025-04-18 15:56:06,776 - INFO - 127.0.0.1 - - [18/Apr/2025 15:56:06] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 15:56:12,302 - INFO - 127.0.0.1 - - [18/Apr/2025 15:56:12] "GET /page1 HTTP/1.1" 200 -
+2025-04-18 15:56:12,324 - INFO - 127.0.0.1 - - [18/Apr/2025 15:56:12] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:52:13,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-18 21:52:13,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 21:52:34,406 - INFO - 127.0.0.1 - - [18/Apr/2025 21:52:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-18 21:52:36,012 - INFO - 127.0.0.1 - - [18/Apr/2025 21:52:36] "GET /page1 HTTP/1.1" 200 -
+2025-04-18 21:52:36,147 - INFO - 127.0.0.1 - - [18/Apr/2025 21:52:36] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:52:40,159 - INFO - 127.0.0.1 - - [18/Apr/2025 21:52:40] "GET / HTTP/1.1" 200 -
+2025-04-18 21:52:40,188 - INFO - 127.0.0.1 - - [18/Apr/2025 21:52:40] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:52:44,621 - INFO - 127.0.0.1 - - [18/Apr/2025 21:52:44] "GET /page5 HTTP/1.1" 200 -
+2025-04-18 21:52:52,328 - INFO - 127.0.0.1 - - [18/Apr/2025 21:52:52] "GET /page1 HTTP/1.1" 200 -
+2025-04-18 21:52:52,378 - INFO - 127.0.0.1 - - [18/Apr/2025 21:52:52] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:54:01,647 - INFO - TEXT_ENCODE: Image: butter.jpg, Text: abc.txt, Expiry: 1200s
+2025-04-18 21:54:01,647 - INFO - 127.0.0.1 - - [18/Apr/2025 21:54:01] "POST /page1 HTTP/1.1" 200 -
+2025-04-18 21:54:01,680 - INFO - 127.0.0.1 - - [18/Apr/2025 21:54:01] "GET /static/outputs/encoded_random.png HTTP/1.1" 200 -
+2025-04-18 21:54:01,790 - INFO - 127.0.0.1 - - [18/Apr/2025 21:54:01] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:54:13,105 - INFO - 127.0.0.1 - - [18/Apr/2025 21:54:13] "GET /static/outputs/encoded_random.png HTTP/1.1" 200 -
+2025-04-18 21:54:51,619 - INFO - TEXT_DECODE_SUCCESS: Image: encoded_random (37).png, Key: 5065****
+2025-04-18 21:54:51,619 - INFO - 127.0.0.1 - - [18/Apr/2025 21:54:51] "POST /page1 HTTP/1.1" 200 -
+2025-04-18 21:54:51,645 - INFO - 127.0.0.1 - - [18/Apr/2025 21:54:51] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:54:54,442 - INFO - 127.0.0.1 - - [18/Apr/2025 21:54:54] "GET /static/outputs/decoded.txt HTTP/1.1" 200 -
+2025-04-18 21:55:14,409 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:14] "GET / HTTP/1.1" 200 -
+2025-04-18 21:55:14,444 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:14] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:55:16,439 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:16] "GET /page4 HTTP/1.1" 200 -
+2025-04-18 21:55:16,470 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:16] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:55:41,238 - INFO - AUDIO_ENCODE: Audio: audio.wav, Image: butter.jpg, Expiry: 1200s
+2025-04-18 21:55:41,238 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:41] "POST /page4 HTTP/1.1" 200 -
+2025-04-18 21:55:41,290 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:41] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:55:41,309 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:41] "GET /static/outputs/audio_stego.png HTTP/1.1" 200 -
+2025-04-18 21:55:44,227 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:44] "GET /static/outputs/audio_stego.png HTTP/1.1" 200 -
+2025-04-18 21:56:09,405 - INFO - AUDIO_DECODE_SUCCESS: Stego: audio_stego (11).png, Decode Time: 0.5074s
+2025-04-18 21:56:09,405 - INFO - 127.0.0.1 - - [18/Apr/2025 21:56:09] "POST /page4 HTTP/1.1" 200 -
+2025-04-18 21:56:09,455 - INFO - 127.0.0.1 - - [18/Apr/2025 21:56:09] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:56:10,811 - INFO - 127.0.0.1 - - [18/Apr/2025 21:56:10] "GET /static/outputs/decoded_audio.wav HTTP/1.1" 200 -
+2025-04-18 21:56:57,880 - INFO - 127.0.0.1 - - [18/Apr/2025 21:56:57] "[33mGET /evaluate_audio HTTP/1.1[0m" 404 -
+2025-04-18 21:57:02,417 - INFO - 127.0.0.1 - - [18/Apr/2025 21:57:02] "GET /page4 HTTP/1.1" 200 -
+2025-04-18 21:57:12,886 - INFO - 127.0.0.1 - - [18/Apr/2025 21:57:12] "GET /page3 HTTP/1.1" 200 -
+2025-04-18 21:57:12,919 - INFO - 127.0.0.1 - - [18/Apr/2025 21:57:12] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:57:16,490 - INFO - 127.0.0.1 - - [18/Apr/2025 21:57:16] "GET / HTTP/1.1" 200 -
+2025-04-18 21:57:16,520 - INFO - 127.0.0.1 - - [18/Apr/2025 21:57:16] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:57:26,271 - INFO - 127.0.0.1 - - [18/Apr/2025 21:57:26] "[33mGET /www.linkedin.com/in/sai-sriya-jandhyam-bb13832ab HTTP/1.1[0m" 404 -
+2025-04-18 21:57:41,994 - INFO - 127.0.0.1 - - [18/Apr/2025 21:57:41] "[33mGET /www.linkedin.com/in/mudelli-vivekananda-reddy-21a7bb28a HTTP/1.1[0m" 404 -
+2025-04-18 21:58:20,635 - INFO - 127.0.0.1 - - [18/Apr/2025 21:58:20] "GET /page2 HTTP/1.1" 200 -
+2025-04-18 21:58:20,671 - INFO - 127.0.0.1 - - [18/Apr/2025 21:58:20] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:58:24,969 - INFO - 127.0.0.1 - - [18/Apr/2025 21:58:24] "GET /page3 HTTP/1.1" 200 -
+2025-04-18 21:58:25,014 - INFO - 127.0.0.1 - - [18/Apr/2025 21:58:25] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:58:26,580 - INFO - 127.0.0.1 - - [18/Apr/2025 21:58:26] "GET /evaluate_im HTTP/1.1" 200 -
+2025-04-18 21:58:26,618 - INFO - 127.0.0.1 - - [18/Apr/2025 21:58:26] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-18 21:59:32,879 - INFO - 127.0.0.1 - - [18/Apr/2025 21:59:32] "GET / HTTP/1.1" 200 -
+2025-04-18 21:59:32,922 - INFO - 127.0.0.1 - - [18/Apr/2025 21:59:32] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:43:58,999 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-19 22:43:59,000 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 22:44:02,411 - INFO - 127.0.0.1 - - [19/Apr/2025 22:44:02] "GET / HTTP/1.1" 200 -
+2025-04-19 22:44:02,688 - INFO - 127.0.0.1 - - [19/Apr/2025 22:44:02] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:44:04,229 - INFO - 127.0.0.1 - - [19/Apr/2025 22:44:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-19 22:44:09,201 - INFO - 127.0.0.1 - - [19/Apr/2025 22:44:09] "GET /page5 HTTP/1.1" 200 -
+2025-04-19 22:44:27,875 - INFO - 127.0.0.1 - - [19/Apr/2025 22:44:27] "GET /page1 HTTP/1.1" 200 -
+2025-04-19 22:44:27,907 - INFO - 127.0.0.1 - - [19/Apr/2025 22:44:27] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:45:10,647 - INFO - TEXT_ENCODE: Image: butter.jpg, Text: abc.txt, Expiry: 1200s
+2025-04-19 22:45:10,650 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:10] "POST /page1 HTTP/1.1" 200 -
+2025-04-19 22:45:10,676 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:10] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:45:10,737 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:10] "GET /static/outputs/encoded_random.png HTTP/1.1" 200 -
+2025-04-19 22:45:13,967 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:13] "GET /static/outputs/encoded_random.png HTTP/1.1" 200 -
+2025-04-19 22:45:37,952 - INFO - TEXT_DECODE_SUCCESS: Image: encoded_random (38).png, Key: 1365****
+2025-04-19 22:45:37,953 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:37] "POST /page1 HTTP/1.1" 200 -
+2025-04-19 22:45:37,992 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:37] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:45:39,739 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:39] "GET /static/outputs/decoded.txt HTTP/1.1" 200 -
+2025-04-19 22:45:50,802 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:50] "GET / HTTP/1.1" 200 -
+2025-04-19 22:45:50,838 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:50] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:45:53,101 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:53] "GET /page2 HTTP/1.1" 200 -
+2025-04-19 22:45:53,126 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:53] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:45:58,903 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:58] "GET / HTTP/1.1" 200 -
+2025-04-19 22:45:58,945 - INFO - 127.0.0.1 - - [19/Apr/2025 22:45:58] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:46:00,867 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:00] "GET /page3 HTTP/1.1" 200 -
+2025-04-19 22:46:00,894 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:00] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:46:09,454 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:09] "GET / HTTP/1.1" 200 -
+2025-04-19 22:46:09,499 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:09] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:46:11,277 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:11] "GET /page4 HTTP/1.1" 200 -
+2025-04-19 22:46:11,306 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:11] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:46:27,425 - INFO - AUDIO_ENCODE: Audio: audio.wav, Image: butter.jpg, Expiry: 12000s
+2025-04-19 22:46:27,427 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:27] "POST /page4 HTTP/1.1" 200 -
+2025-04-19 22:46:27,461 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:27] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:46:27,479 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:27] "GET /static/outputs/audio_stego.png HTTP/1.1" 200 -
+2025-04-19 22:46:30,030 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:30] "GET /static/outputs/audio_stego.png HTTP/1.1" 200 -
+2025-04-19 22:46:42,220 - INFO - AUDIO_DECODE_SUCCESS: Stego: audio_stego (12).png, Decode Time: 0.4688s
+2025-04-19 22:46:42,222 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:42] "POST /page4 HTTP/1.1" 200 -
+2025-04-19 22:46:42,246 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:42] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:46:43,909 - INFO - 127.0.0.1 - - [19/Apr/2025 22:46:43] "GET /static/outputs/decoded_audio.wav HTTP/1.1" 200 -
+2025-04-19 22:54:05,336 - INFO - 127.0.0.1 - - [19/Apr/2025 22:54:05] "GET / HTTP/1.1" 200 -
+2025-04-19 22:54:05,380 - INFO - 127.0.0.1 - - [19/Apr/2025 22:54:05] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:54:41,562 - INFO - 127.0.0.1 - - [19/Apr/2025 22:54:41] "[33mGET /www.linkedin.com/in/sai-sriya-jandhyam-bb13832ab HTTP/1.1[0m" 404 -
+2025-04-19 22:55:15,771 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:15] "GET /page1 HTTP/1.1" 200 -
+2025-04-19 22:55:15,802 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:15] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:55:30,013 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:30] "[33mGET /evaluate HTTP/1.1[0m" 404 -
+2025-04-19 22:55:34,686 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:34] "GET / HTTP/1.1" 200 -
+2025-04-19 22:55:34,722 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:34] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:55:36,099 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:36] "GET /page3 HTTP/1.1" 200 -
+2025-04-19 22:55:36,131 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:36] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:55:37,637 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:37] "GET /evaluate_im HTTP/1.1" 200 -
+2025-04-19 22:55:37,662 - INFO - 127.0.0.1 - - [19/Apr/2025 22:55:37] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 22:56:10,173 - INFO - 127.0.0.1 - - [19/Apr/2025 22:56:10] "GET / HTTP/1.1" 200 -
+2025-04-19 22:56:10,215 - INFO - 127.0.0.1 - - [19/Apr/2025 22:56:10] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-04-19 23:02:54,427 - INFO - 127.0.0.1 - - [19/Apr/2025 23:02:54] "GET /page1 HTTP/1.1" 200 -
+2025-04-19 23:02:54,450 - INFO - 127.0.0.1 - - [19/Apr/2025 23:02:54] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -

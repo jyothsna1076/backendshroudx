@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image-in-Image Steganography</title>
+
+    <style>
+        body {
+            font-family: 'Poppins', 'Lato', 'Segoe UI', sans-serif;
+            text-align: center;
+            background-color: rgb(195, 198, 199);
+            margin: 0;
+            padding: 20px;
+            background-image: url("{{ url_for('static', filename='background.jpeg') }}");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+        }
+    
+        h1 {
+            font-size: 60px;
+        }
+    
+        h2 {
+            font-size: 35px;
+        }
+    
+        h3, h4 {
+            color: #222;
+            font-size: 28px;
+        }
+    
+        form {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            display: inline-block;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        }
+    
+        input[type="file"],
+        input[type="text"],
+        input[type="number"],
+        input[type="submit"],
+        button {
+            margin: 10px 0;
+            padding: 12px;
+            width: 80%;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            font-family: 'Poppins', 'Lato', 'Segoe UI', sans-serif;
+            font-size: 16px;
+        }
+    
+        input[type="submit"],
+        button {
+            background: #444141;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+    
+        input[type="submit"]:hover,
+        button:hover {
+            background: #2e302e;
+        }
+    
+        img {
+            margin-top: 10px;
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+    
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #0044cc;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    
+        a:hover {
+            text-decoration: underline;
+        }
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        .output-section {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+    
+        .error-message {
+            color: red;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+    
+        p {
+            font-size: 20px;
+        }
+
+        .evaluate-metrics-wrapper {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.evaluate-metrics-wrapper button {
+    padding: 10px 20px;
+    background-color: #444141;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', 'Lato', 'Segoe UI', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.evaluate-metrics-wrapper button:hover {
+    background-color: #2e302e;
+}
+
+.circle-button {
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      width: 150px;
+      height: 120px;
+      border-radius: 50px;
+      background: #444141;
+      color: white;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+    }
+
+    .circle-button:hover {
+      background: #2e302e;
+    }
+
+    </style>
+    
+
+</head>
+<body>
+    <h2>Steganography: Hide & Retrieve Text in Images</h2>
+    <button class="circle-button" onclick="location.href='/'">Main Page</button>
+    <div class="evaluate-metrics-wrapper">
+        <form action="/evaluate_im" method="get">
+            <button type="submit">Evaluate Metrics</button>
+        </form>
+    </div>
+    <h2>Image-in-Image Steganography</h2>
+
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+
+    <!-- Encode Form -->
+    <form action="/page3" method="post" enctype="multipart/form-data">
+        <h3>Encode Image</h3>
+        <input type="hidden" name="action" value="encode">
+        Cover Image: <input type="file" name="cover_image" required><br>
+        Secret Image: <input type="file" name="secret_image" required><br>
+        
+        <label for="expiry_time"> Expiry Time (seconds):</label>
+        <input type="text" id="expiry_time" name="expiry_time" placeholder="e.g., 60">
+        </div>
+        <input type="submit" value="Encode">
+        <div>
+        {% if encode_error %}
+            <p style="color: red;">{{ encode_error }}</p>
+        {% endif %}
+    </form>
+
+    {% if encoded_image_path %}
+        <h4>Encoded (Stego) Image:</h4>
+        <img src="{{ encoded_image_path }}" width="300"><br>
+        <a href="{{ encoded_image_path }}" download>Download Stego Image</a>
+
+        {% if encrypted_key %}
+        <h3>Generated Key (for decoding):</h3>
+        <p style="font-weight: bold; color: #2c3e50;">{{ encrypted_key }}</p>
+        {% endif %}
+
+        {% if embed_time %}
+        <p><strong> Embed Time:</strong> {{ embed_time }} seconds</p>
+        {% endif %}
+    {% endif %}
+
+    <hr>
+
+    <!-- Decode Form -->
+    <form action="/page3" method="post" enctype="multipart/form-data">
+        <h3>Decode Image</h3>
+        <input type="hidden" name="action" value="decode">
+        Stego Image: <input type="file" name="stego_image" required><br>
+        Enter Key: <input type="text" name="manual_key" placeholder="Paste your key here" required><br>
+        <input type="submit" value="Decode">
+        {% if decode_error %}
+            <p style="color: red;">{{ decode_error }}</p>
+        {% endif %}
+    
+        {% if time_limit_error %}
+                <p style="color: red;">{{ time_limit_error }}</p>
+        {% endif %}
+        {% if error %}
+        <p style="color: red; margin-top: 10px;">{{ error }}</p>
+    {% endif %}
+    </form>
+
+    {% if decoded_image_path %}
+        <h4>Decoded Secret Image:</h4>
+        <img src="{{ decoded_image_path }}" width="300"><br>
+        <a href="{{ decoded_image_path }}" download>Download Secret Image</a>
+    {% endif %}
+    {% if decode_time %}
+        <p><strong> Decode Time:</strong> {{ decode_time }} seconds</p>
+    {% endif %}
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const encodeForm = document.querySelector('form[action="/page3"][method="post"]');
+            const decodeForm = document.querySelectorAll('form[action="/page3"][method="post"]')[1];
+    
+            const MAX_SIZE_MB = 10;
+            const MAX_SIZE_BYTES = MAX_SIZE_MB * 1024 * 1024;
+    
+            function validateFileSize(event) {
+                const files = event.target.querySelectorAll('input[type="file"]');
+                for (let fileInput of files) {
+                    for (let file of fileInput.files) {
+                        if (file.size > MAX_SIZE_BYTES) {
+                            alert(`File size should not exceed ${MAX_SIZE_MB} MB`);
+                            event.preventDefault();
+                            return;
+                        }
+                    }
+                }
+            }
+    
+            encodeForm.addEventListener("submit", validateFileSize);
+            decodeForm.addEventListener("submit", validateFileSize);
+        });
+    </script>
+    
+</body>
+</html>

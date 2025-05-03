@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Lato:wght@300;400;700&family=Segoe+UI&display=swap" rel="stylesheet">
+  <title>Main Page</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Lato:wght@300;400;700&family=Segoe+UI&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <style>
+    body {
+      font-family: 'Poppins', 'Lato', 'Segoe UI', sans-serif;
+      text-align: center;
+      margin: 0;
+      background-color: rgb(195, 198, 199);
+      background-image: url("{{ url_for('static', filename='background.jpeg') }}");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    .help-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 35px;
+  height: 35px;
+  font-size: 11px;
+  background-color: #444141;
+  color: white;
+  border: none;
+  
+  cursor: pointer;
+  padding: 0;
+  line-height: 35px;
+}
+.help-button:hover {
+  background-color: #2e302e;
+}
+
+
+    h1 {
+      font-size: 80px;
+    }
+
+    h2 {
+      font-size: 35px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    button {
+      font-family: 'Poppins', 'Lato', 'Segoe UI', sans-serif;
+      padding: 10px;
+      width: 400px;
+      height: 100px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #444141;
+      color: white;
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    button:hover {
+      background: #2e302e;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.6);
+    }
+
+    .modal-content {
+      background-color: #fff;
+      margin: 10% auto;
+      padding: 20px;
+      width: 60%;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .circle-button {
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      width: 150px;
+      height: 120px;
+      border-radius: 50px;
+      background: #444141;
+      color: white;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+    }
+
+    .circle-button:hover {
+      background: #2e302e;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .fade-in {
+      animation: fadeIn 0.6s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .close {
+      float: right;
+      font-size: 24px;
+      font-weight: bold;
+      color: #aaa;
+      cursor: pointer;
+    }
+    .header img {
+      max-width: 100px;
+      height: auto;
+      margin-bottom: 80px;
+      animation: float 3s ease-in-out infinite;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      gap: 20px;
+    }
+
+    
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .team-links a {
+      display: block;
+      margin: 10px 0;
+      font-size: 18px;
+      color: #0077b5;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .headering {
+      margin: 2.5px;
+    }
+
+    .team-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+
+    <div class="container fade-in">
+        <div class="header">
+          <img src="https://cdn-icons-png.flaticon.com/512/9118/9118397.png" alt="Cryptography Icon" />
+          <div class = "headering">
+            <h1>ShroudX</h1>
+            <h2>Encrypt. Embed. Protect.</h2>
+
+          </div></div>
+
+    <button class="help-button" onclick="document.getElementById('helpModal').style.display='block'">Help</button>
+
+  
+    <button onclick="location.href='/page1'">Text in Image Steganography</button>
+    <button onclick="location.href='/page2'">Text in Text Steganography</button>
+    <button onclick="location.href='/page3'">Image in Image Steganography</button>
+    <button onclick="location.href='/page4'">Audio in Image Steganography</button>
+    <button class="circle-button" onclick="location.href='/page5'">User Manual</button>
+    
+  </div>
+
+  <!-- Help Modal -->
+  <div id="helpModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="document.getElementById('helpModal').style.display='none'">&times;</span>
+      <h3>Meet Our Team</h3>
+      <div class="team-links">
+        <a href="www.linkedin.com/in/sai-sriya-jandhyam-bb13832ab" target="_blank">Jandhyam Sai Sriya – LinkedIn</a>
+        <a href="https://www.linkedin.com/in/jyothsna-vadlamudi-11665b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Jyothsna Vdlamudi – LinkedIn</a>
+        <a href="www.linkedin.com/in/manideep-kodakandla-a896952a7" target="_blank">Manideep Kodakandla – LinkedIn</a>
+        <a href="www.linkedin.com/in/mudelli-vivekananda-reddy-21a7bb28a" target="_blank">Vivekananda Mudelli – LinkedIn</a>
+        <a href="https://www.linkedin.com/in/pradeepika-nori-b4167928a" target="_blank">Prdaeepika Nori – LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Close modal when clicking outside of it
+    window.onclick = function(event) {
+      const modal = document.getElementById('helpModal');
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
