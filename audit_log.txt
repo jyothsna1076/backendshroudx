@@ -386,3 +386,40 @@ Traceback (most recent call last):
         ^^^^^^^^^^^^^^^^^^^^^
 TypeError: cannot unpack non-iterable NoneType object
 2025-05-03 18:14:39,878 - INFO - 127.0.0.1 - - [03/May/2025 18:14:39] "[35m[1mPOST /page1 HTTP/1.1[0m" 500 -
+2025-05-03 18:22:44,267 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-03 18:22:44,267 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-03 18:22:44,268 - INFO -  * Restarting with stat
+2025-05-03 18:22:45,408 - WARNING -  * Debugger is active!
+2025-05-03 18:22:45,408 - INFO -  * Debugger PIN: 934-341-667
+2025-05-03 18:24:14,791 - INFO - 127.0.0.1 - - [03/May/2025 18:24:14] "GET / HTTP/1.1" 200 -
+2025-05-03 18:24:14,814 - INFO - 127.0.0.1 - - [03/May/2025 18:24:14] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-05-03 18:24:18,242 - INFO - 127.0.0.1 - - [03/May/2025 18:24:18] "GET /page1 HTTP/1.1" 200 -
+2025-05-03 18:24:18,250 - INFO - 127.0.0.1 - - [03/May/2025 18:24:18] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-05-03 18:24:32,857 - ERROR - Exception on /page1 [POST]
+Traceback (most recent call last):
+  File "C:\Users\jyoth\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jyoth\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jyoth\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jyoth\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jyoth\Desktop\shroudx\app.py", line 94, in text_in_image_page
+    start_time = time.time()
+        ^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+2025-05-03 18:24:32,857 - INFO - 127.0.0.1 - - [03/May/2025 18:24:32] "[35m[1mPOST /page1 HTTP/1.1[0m" 500 -
+2025-05-03 18:27:28,773 - INFO - 127.0.0.1 - - [03/May/2025 18:27:28] "GET / HTTP/1.1" 200 -
+2025-05-03 18:27:28,788 - INFO - 127.0.0.1 - - [03/May/2025 18:27:28] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-05-03 18:27:31,983 - INFO - 127.0.0.1 - - [03/May/2025 18:27:31] "GET /page3 HTTP/1.1" 200 -
+2025-05-03 18:27:31,999 - INFO - 127.0.0.1 - - [03/May/2025 18:27:31] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-05-03 18:27:54,607 - INFO - IMAGE_ENCODE: Cover: encoded_butter.png, Secret: random1.png, Expiry: 500s
+2025-05-03 18:27:54,607 - INFO - 127.0.0.1 - - [03/May/2025 18:27:54] "POST /page3 HTTP/1.1" 200 -
+2025-05-03 18:27:54,622 - INFO - 127.0.0.1 - - [03/May/2025 18:27:54] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-05-03 18:27:54,627 - INFO - 127.0.0.1 - - [03/May/2025 18:27:54] "GET /static/outputs/stego_image.png HTTP/1.1" 200 -
