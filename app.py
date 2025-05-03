@@ -9,6 +9,8 @@ from werkzeug.exceptions import RequestEntityTooLarge
 import text_in_image  
 
 import image_in_image2
+import text_in_text_caecip
+import text_in_text_zwc
 
 from audio_in_image import Start_Encode, Start_Decode 
 
@@ -609,4 +611,4 @@ def evaluate_im():
 
     return render_template("evaluate_im.html", psnr_value=psnr_value, hamming_value=hamming_value, eval_error=eval_error)
 if __name__ == "__main__":
-    app.run(debug= False)
+    app.run(debug=True)
