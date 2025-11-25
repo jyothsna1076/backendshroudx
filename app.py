@@ -20,6 +20,7 @@ from logger import log_event
 
 
 app = Flask(__name__)
+CORS(app)
 UPLOAD_FOLDER = "static/uploads"
 OUTPUT_FOLDER = "static/outputs"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
