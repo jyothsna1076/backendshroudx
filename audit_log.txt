@@ -423,3 +423,12 @@ TypeError: cannot unpack non-iterable NoneType object
 2025-05-03 18:27:54,607 - INFO - 127.0.0.1 - - [03/May/2025 18:27:54] "POST /page3 HTTP/1.1" 200 -
 2025-05-03 18:27:54,622 - INFO - 127.0.0.1 - - [03/May/2025 18:27:54] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
 2025-05-03 18:27:54,627 - INFO - 127.0.0.1 - - [03/May/2025 18:27:54] "GET /static/outputs/stego_image.png HTTP/1.1" 200 -
+2025-05-05 16:06:28,781 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-05 16:06:28,783 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-05 16:06:28,783 - INFO -  * Restarting with stat
+2025-05-05 16:06:31,141 - WARNING -  * Debugger is active!
+2025-05-05 16:06:31,149 - INFO -  * Debugger PIN: 934-341-667
+2025-05-05 16:07:33,822 - INFO - 127.0.0.1 - - [05/May/2025 16:07:33] "GET / HTTP/1.1" 200 -
+2025-05-05 16:07:34,006 - INFO - 127.0.0.1 - - [05/May/2025 16:07:34] "[36mGET /static/background.jpeg HTTP/1.1[0m" 304 -
+2025-05-05 16:07:34,010 - INFO - 127.0.0.1 - - [05/May/2025 16:07:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
