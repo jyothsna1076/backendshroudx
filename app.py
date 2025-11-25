@@ -4,7 +4,7 @@ from crypto_utils import encrypt, decrypt
 import time 
 from scipy.io import wavfile
 from werkzeug.exceptions import RequestEntityTooLarge
-
+from flask_cors import CORS
 
 import text_in_image  
 
